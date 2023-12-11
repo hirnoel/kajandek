@@ -14,6 +14,15 @@ body {
     min-height: 100vh;
 }
 
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll; /* Change background attachment for better mobile support */
+        background-position: top center; /* Adjust as needed for mobile */
+        /* Consider adjusting background-size if needed, for example: */
+        /* background-size: auto 100%; */
+    }
+}
+
 .box-closed, .box-opened {
     width: 300px;
     height: 300px;
